@@ -1,4 +1,4 @@
-# go-push
+# Gush
 
 An extensible general message push prototype implemented by golang.
 
@@ -67,7 +67,7 @@ curl http://localhost:7799/push/all -d 'items=[{"msg": "hi"},{"msg": "bye"}]'
 curl http://localhost:7799/push/room -d 'room=default&items=[{"msg": "hi"},{"msg": "bye"}]'
 ```
 
-## gateway的websocket协议
+## Websocket protocol of gateway
 
 * PING(client->server)
 
